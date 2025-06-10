@@ -56,6 +56,14 @@ Go to your fork on GitHub and open a Pull Request against the original `main` br
 * Ensure all internal links work.
 * Maintain paragraph-style storytelling for chapters.
 
+## 🛠 Suggestions & Fixes
+- Improve HTML structure or accessibility
+- Propose minimal CSS-only enhancements (when permitted)
+
+## ✍️ Story Contributions
+- Submit original stories in Markdown or HTML format
+- Provide a title and short summary
+
 ## Reporting Issues
 
 If you find a bug or want to suggest a feature:
