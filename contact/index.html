@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sharab Shrestha</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8" />
+    <title>Contact | Sharab Shrestha – Web Developer & Storyteller</title>
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <!-- Skip Navigation Link -->
+    <a href="#maincontent" class="skip-link" style="position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;">
+      Skip to main content
+    </a>
+
     <!-- Navigation Bar -->
     <nav>
-      <a href="/">Home</a> |
-      <a href="/about-me/">About Me</a> |
-      <a href="/projects/">Projects</a> |
-      <a href="/story/">Stories</a> |
-      <a href="/contact/">Contact</a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about-me/">About Me</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/story/">Stories</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
     </nav>
 
     <header>
@@ -24,23 +32,23 @@
       <p>Let's Connect and Create Something Meaningful</p>
     </header>
 
-    <main>
+    <main id="maincontent">
       <section>
         <form method="post" action="https://formspree.io/f/myzjepgo">
           <p>
-            <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name">
+            <label for="name">Your Name:</label><br />
+            <input type="text" id="name" name="name" required />
           </p>
           <p>
-            <label for="email">Your Email:</label><br>
-            <input type="email" id="email" name="email">
+            <label for="email">Your Email:</label><br />
+            <input type="email" id="email" name="email" required />
           </p>
           <p>
-            <label for="message">Your Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="40"></textarea>
+            <label for="message">Your Message:</label><br />
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea>
           </p>
           <p>
-            <input type="submit" value="Send Message">
+            <input type="submit" value="Send Message" />
           </p>
         </form>
       </section>
