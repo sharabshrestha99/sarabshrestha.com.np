@@ -1,5 +1,13 @@
-User-agent: *
-Allow: /
-Disallow: /cdn-cgi/
+# robots.txt for sarabshrestha.com.np
+# -----------------------------------
+# This file guides search engines on which paths to index and which to avoid.
 
+User-agent: *             # Applies to all web crawlers
+Allow: /                  # Allow all public pages
+Disallow: /cdn-cgi/       # Disallow Cloudflare's CDN-specific assets
+
+# Optional: Add crawl-delay if needed
+# Crawl-delay: 10         # Number of seconds to wait between requests
+
+# Sitemap
 Sitemap: https://sarabshrestha.com.np/sitemap.xml
