@@ -1,6 +1,10 @@
 # Contributing to Sharab Shrestha Portfolio Website
 
+A guide to contributing effectively to the Sharab Shrestha portfolio website.
+
 Thank you for considering contributing to this project! Your help is appreciated. This document outlines the process and rules to make your contribution smooth and effective.
+
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a welcoming community.
 
 ## How to Contribute
 
@@ -18,10 +22,10 @@ git clone https://github.com/your-username/sarabshrestha.com.np.git
 
 ### 3. Create a New Branch
 
-It's best to isolate your work in its own branch:
+It's best to isolate your work in its own branch. Use descriptive branch names, for example:
 
 ```bash
-git checkout -b feature/your-feature-name
+git checkout -b feature/add-contact-form
 ```
 
 ### 4. Make Your Changes
@@ -42,12 +46,13 @@ git commit -m "Add chapter 3 to corporate story"
 ### 6. Push to GitHub
 
 ```bash
-git push origin feature/your-feature-name
+git push origin feature/add-contact-form
 ```
 
 ### 7. Create a Pull Request
 
 Go to your fork on GitHub and open a Pull Request against the original `main` branch.
+Please provide a clear description summarizing your changes.
 
 ## Contribution Rules
 
@@ -57,12 +62,14 @@ Go to your fork on GitHub and open a Pull Request against the original `main` br
 * Maintain paragraph-style storytelling for chapters.
 
 ## 🛠 Suggestions & Fixes
-- Improve HTML structure or accessibility
-- Propose minimal CSS-only enhancements (when permitted)
+
+* Improve HTML structure or accessibility
+* Propose minimal CSS-only enhancements (when permitted)
 
 ## ✍️ Story Contributions
-- Submit original stories in Markdown or HTML format
-- Provide a title and short summary
+
+* Submit original stories in Markdown or HTML format
+* Provide a title and short summary
 
 ## Reporting Issues
 
