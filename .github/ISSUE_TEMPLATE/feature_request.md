@@ -1,27 +1,29 @@
 ---
 name: Feature request
 about: Suggest a new idea or improvement
-title: ""
+title: "[Feature] <short summary of your request>"
 labels: enhancement, needs-triage
-assignees: ""
+assignees: []
 ---
 
 **💡 Is your feature request related to a problem? Please describe.**  
-A clear and concise description of the issue or limitation.  
-> Example: "I'm always frustrated when I have to..."
+Please provide a clear and concise description of the issue or limitation.  
+> Example: 'I'm always frustrated when I have to...'
 
 ---
 
 **🚀 Describe the solution you'd like**  
-A clear and concise description of the feature or enhancement you’d like to see.  
-> Example: "I'd like a button that exports my data as a CSV file."
+Please describe the feature or enhancement you would like to see.  
+> Example: "I would like a button that exports my data as a CSV file."
 
 ---
 
 **⚙️ Describe alternatives you’ve considered**  
 If applicable, describe any alternative solutions or features you considered and why they may not fit.  
-> Example: "I considered using the existing 'Export as JSON' feature, but I need CSV for my workflow."
+> Example: "I considered using the existing \"Export as JSON\" feature, but I need CSV for my workflow."
 
 ---
 
-**🖼️ Additional context**
+**🖼️ Additional context**  
+Please provide any other context, screenshots, or mockups that may help us understand your request.  
+> Example: "Here is a screenshot of the current workflow and a mockup of the proposed feature."

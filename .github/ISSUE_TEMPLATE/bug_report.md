@@ -1,9 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ""
+title: "[Bug]: "
 labels: bug, needs-triage
-assignees: ""
 ---
 
 **🪲 Describe the Bug**  
@@ -14,20 +13,20 @@ A clear and concise description of what the bug is.
 **🔥 Severity/Priority**  
 Please choose one:
 
-- ⬜️ Low — Minor UI issue that doesn't block features
-- ⬜️ Medium — Noticeable issue that requires attention
-- ⬜️ High — Breaks a major feature
-- ⬜️ Critical — Makes the app or site unusable
-
+- [ ] None — Not a bug, just a question or suggestion
+- [ ] Trivial — Cosmetic issue, not affecting functionality
+- [ ] Low — Minor UI issue that doesn't block features
+- [ ] Medium — Noticeable issue that requires attention
+- [ ] High — Breaks a major feature
+- [ ] Critical — Makes the app or site unusable
 ---
 
 **🧭 Steps to Reproduce**  
 Please list the steps you took to reproduce the issue:
-
-1. Go to `...`
-2. Click on `...`
-3. Scroll down to `...`
-4. See the error `...`
+1. Go to `<e.g., Dashboard page, Settings menu, Profile section>`
+2. Click on the button labeled "Submit" (or specify the action you performed)
+3. Scroll down to `<e.g., Notifications panel, Account details section>`
+4. See the error (e.g., "Unexpected 500 Internal Server Error" or "Button does not respond when clicked")
 
 ---
 
@@ -43,18 +42,18 @@ If applicable, add screenshots to help explain your problem.
 
 **🖥️ Desktop environment**  
 Please complete the following information if applicable:
-- OS: e.g. Windows 11, macOS Ventura
-- Browser: e.g. Chrome, Firefox, Safari
-- Version: e.g. 22
+- OS: [Your OS] (e.g., Windows 11, macOS Ventura)
+- Browser: [Browser name] (e.g., Chrome, Firefox, Safari)
+- Version: <Browser Version> (e.g., 22)
 
 ---
 
 **📱 Smartphone environment**  
 Please complete the following information if applicable:
-- Device: e.g. iPhone 14, Samsung Galaxy S22
-- OS: e.g. iOS 17, Android 13
-- Browser: e.g. stock browser, Safari, Chrome
-- Version: e.g. 22
+- Device: [Your Device] (e.g., iPhone 14, Samsung Galaxy S22)
+- OS: [Your OS] (e.g., iOS 17, Android 13)
+- Browser: [Browser] (e.g., stock browser, Safari, Chrome)
+- Version: <Version> (e.g., 22)
 
 ---
 

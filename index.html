@@ -43,7 +43,8 @@
     </script>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css" /></noscript>
   </head>
   <body>
     <!-- Skip Link -->
@@ -77,7 +78,7 @@
 
     <!-- Footer -->
     <footer>
-      <p>Made with HTML only. No CSS. No JavaScript.</p>
+      <p>Made with HTML, CSS, and JavaScript.</p>
       <p>From Nepal With Curiosity</p>
     </footer>
   </body>

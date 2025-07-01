@@ -30,11 +30,11 @@ Attach screenshots or gifs to help reviewers understand visual changes.
 
 ## ✅ Checklist
 Before submitting this pull request, please verify that:
-- [ ] Code follows the project’s HTML-only style (no CSS or JS unless explicitly authorized)
+- [ ] Code follows the project’s current coding guidelines
 - [ ] All internal links are working correctly
-- [ ] Commit messages are clear, concise, and follow the project's guidelines
+- [ ] Commit messages are clear, concise, and follow the project's [commit message guidelines](../CONTRIBUTING.md#commit-messages)
 - [ ] No sensitive or private information is included
-- [ ] Documentation (e.g. README, issue templates) is updated if necessary
+- [ ] Documentation is updated if necessary (e.g. update README, contributing guide, or issue templates if changes affect them)
 - [ ] Added tests or instructions for reviewers to verify the feature or fix
 
 ---

@@ -2,11 +2,21 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Built With](https://img.shields.io/badge/Built%20With-HTML5-orange)](#)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202025-blue)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202024-blue)](#)
 
 Welcome to my personal portfolio site, showcasing my journey as a web developer and storyteller from Nepal.
 
 This is a simple HTML-only website built without CSS or JavaScript at this stage. It features my original fictional stories, along with my ongoing and future web development projects.
+
+---
+
+## 📑 Table of Contents
+- [🌐 Live Site](#-live-site)
+- [✍️ Author](#%EF%B8%8F-author)
+- [📁 Directory Structure](#-directory-structure)
+- [🤝 Contributors](#-contributors)
+- [🎯 Future Goals](#-future-goals)
+- [📄 License](#-license)
 
 ---
 
@@ -32,12 +42,12 @@ Learner • Storyteller • Web Developer
 sarabshrestha.com.np/
 ├── index.html                  # Home page
 ├── about-me/index.html         # About Me section
-├── contact/index.html          # Contact form (Formspree enabled)
+├── contact/index.html          # Contact form (Formspree integration planned)
 ├── projects/index.html         # Project showcase
 ├── story/                      # Story directory
-│   ├── index.html             # Story listing
-│   ├── story-1/index.html     # Story 1 full page
-│   └── story-2/index.html     # Story 2 full page
+│   ├── index.html              # Story listing
+│   ├── story-1/index.html      # Story 1 full page
+│   └── story-2/index.html      # Story 2 full page
 
 ```
 

@@ -4,10 +4,13 @@
 
 User-agent: *             # Applies to all web crawlers
 Allow: /                  # Allow all public pages
-Disallow: /cdn-cgi/       # Disallow Cloudflare's CDN-specific assets
+Disallow: /cdn-cgi/       # Disallow Cloudflare's CDN-specific assets (add more Disallow lines below if there are other system or CDN paths)
 
-# Optional: Add crawl-delay if needed
+# Example: To slow down crawlers, uncomment and set Crawl-delay below
 # Crawl-delay: 10         # Number of seconds to wait between requests
 
 # Sitemap
 Sitemap: https://sarabshrestha.com.np/sitemap.xml
+# Uncomment or add more sitemap entries below if you have them:
+# Sitemap: https://sarabshrestha.com.np/image-sitemap.xml
+# Sitemap: https://sarabshrestha.com.np/news-sitemap.xml

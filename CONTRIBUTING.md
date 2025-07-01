@@ -18,7 +18,6 @@ Use the following command to clone your fork to your local machine:
 
 ```bash
 git clone https://github.com/your-username/sarabshrestha.com.np.git
-````
 
 ### 3. Create a New Branch
 
@@ -64,8 +63,8 @@ Please provide a clear description summarizing your changes.
 ## 🛠 Suggestions & Fixes
 
 * Improve HTML structure or accessibility
-* Propose minimal CSS-only enhancements (when permitted)
-
+* Improve HTML structure or accessibility
+* Suggest improvements to plain HTML content only (no CSS or JavaScript)
 ## ✍️ Story Contributions
 
 * Submit original stories in Markdown or HTML format
