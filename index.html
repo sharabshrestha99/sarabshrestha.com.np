@@ -1,42 +1,16 @@
-<!doctype html>
-<!--
-  This is the main HTML document for Sharab Shrestha's portfolio website.
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Sharab Shrestha - Web Developer & Storyteller</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- SEO & Open Graph -->
-    <meta
-      name="description"
-      content="Sharab Shrestha – A portfolio of a curious learner, storyteller, and web developer from Nepal. Explore original stories, projects, and creative journeys."
-    />
-    <meta property="og:title" content="Sharab Shrestha" />
-    <meta
-      property="og:description"
-      content="A portfolio of a curious learner, storyteller, and web developer from Nepal."
-    />
-    <meta property="og:url" content="https://sarabshrestha.com.np/" />
-    <meta
-      property="og:image"
-      content="https://sarabshrestha.com.np/android-chrome-512x512.png"
-    />
-
-    <!-- Favicons & App Icons -->
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <!-- Microsoft Clarity -->
+    <title>Sharab Shrestha</title>
     <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
-        c[a] = c[a] || function () {
-          (c[a].q = c[a].q || []).push(arguments);
-        };
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
         t = l.createElement(r);
         t.async = 1;
         t.src = "https://www.clarity.ms/tag/" + i;
@@ -44,43 +18,101 @@
         y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "rxm1ij58uy");
     </script>
-
-    <!-- Stylesheet -->
-    <link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="style.css" /></noscript>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-    <!-- Navigation Bar -->
-    <nav aria-label="Main Navigation">
+    <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about-me/">About Me</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/stories/">Stories</a></li>
-        <li><a href="/contact/">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#introduction">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-
-    <!-- Header -->
-    <header>
+    <header id="home">
       <h1>Sharab Shrestha</h1>
-      <p>Crafting Code & Stories — A Web Developer and Storyteller from Nepal</p>
-    </header>
-
-    <!-- Main Content -->
-    <main id="maincontent">
       <p>
-        Welcome to my official portfolio website. I blend creativity with logic
-        to build digital experiences and immersive stories. Feel free to explore
-        my projects, read my stories, and get in touch!
+        A portfolio of a curious learner, storyteller, and web developer from
+        Nepal.
       </p>
+      <p>Explore original stories, projects, and creative journeys.</p>
+    </header>
+    <main>
+      <section id="introduction">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Sharab Shrestha, a learner, creator, and storyteller based
+          in Nepal. With a growing passion for frontend web development, I enjoy
+          transforming ideas into interactive digital experiences using HTML,
+          CSS, and JavaScript.
+        </p>
+        <p>
+          In addition to coding, I have a deep love for writing. I create
+          original stories and novels that reflect imagination, emotion, and
+          cultural roots. This site is where my two creative worlds — technology
+          and storytelling — meet.
+        </p>
+        <p>
+          I believe in continuous learning and sharing knowledge. Whether I’m
+          building a website or crafting a new chapter, I bring dedication,
+          curiosity, and vision to everything I do.
+        </p>
+      </section>
+      <section>
+        <h2>Latest Projects</h2>
+        <p>
+          Check out my latest projects and contributions to the web development
+          community.
+        </p>
+      </section>
+      <section id="stories">
+        <h2>My Stories</h2>
+        <p>My Written Works &amp; Imaginative Narratives</p>
+        <p>
+          Stories will be available here soon. Stay tuned for original works and
+          creative narratives.
+        </p>
+        <p>
+          In the meantime, feel free to explore my projects and connect with me
+          on social media.
+        </p>
+        <p>Thank you for your patience!</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's Connect and Create Something Meaningful</p>
+        <form method="post" action="https://formspree.io/f/myzjepgo">
+          <p>
+            <label for="name">Your Name:</label><br />
+            <input type="text" id="name" name="name" required />
+          </p>
+          <p>
+            <label for="email">Your Email:</label><br />
+            <input type="email" id="email" name="email" required />
+          </p>
+          <p>
+            <label for="message">Your Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              required
+            ></textarea>
+          </p>
+          <p>
+            <input type="submit" value="Send Message" />
+          </p>
+        </form>
+      </section>
     </main>
-
-    <!-- Footer -->
     <footer>
-      <p>Made with HTML, CSS, and JavaScript.</p>
-      <p>From Nepal With Curiosity</p>
+      <p>&copy; 2025 Sharab Shrestha. All rights reserved.</p>
+      <p>
+        Follow me on <a href="#">Twitter</a>, <a href="#">GitHub</a>, and
+        <a href="#">LinkedIn</a>.
+      </p>
     </footer>
   </body>
 </html>
