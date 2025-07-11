@@ -11,6 +11,7 @@ This is a simple HTML-only website built without CSS or JavaScript at this stage
 ---
 
 ## 📑 Table of Contents
+
 - [🌐 Live Site](#-live-site)
 - [✍️ Author](#%EF%B8%8F-author)
 - [📁 Directory Structure](#-directory-structure)
@@ -22,42 +23,24 @@ This is a simple HTML-only website built without CSS or JavaScript at this stage
 
 ## 🌐 Live Site
 
-👉 Visit the live website: [sharabshrestha.com.np](https://sharabshrestha.com.np)
+👉 Visit the live website: [sarabshrestha.com.np](https://sarabshrestha.com.np)
 
 ---
 
 ## ✍️ Author
 
-**Sharab Shrestha**  
-Learner • Storyteller • Web Developer  
-📍 Nepal  
-📫 [info@sharabshrestha.com.np](mailto:info@sharabshrestha.com.np)
-
----
-
-## 📁 Directory Structure
-
-```
-
-sarabshrestha.com.np/
-├── index.html                  # Home page
-├── about-me/index.html         # About Me section
-├── contact/index.html          # Contact form (Formspree integration planned)
-├── projects/index.html         # Project showcase
-├── story/                      # Story directory
-│   ├── index.html              # Story listing
-│   ├── story-1/index.html      # Story 1 full page
-│   └── story-2/index.html      # Story 2 full page
-
-```
+**Sharab Shrestha**
+Learner • Storyteller • Web Developer
+📍 Nepal
+📫 [info@sarabshrestha.com.np](mailto:info@sarabshrestha.com.np)
 
 ---
 
 ## 🤝 Contributors
 
-| Name             | Role                    |
-| ---------------- | ------------------------ |
-| Sharab Shrestha  | Creator, Writer, Developer |
+| Name            | Role                       |
+| --------------- | -------------------------- |
+| Sharab Shrestha | Creator, Writer, Developer |
 
 ---
 
