@@ -33,3 +33,4 @@ out/
 coverage/
 *.tgz
 !.github
+test/
