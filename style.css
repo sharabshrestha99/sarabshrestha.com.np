@@ -113,3 +113,13 @@ ul {
 nav li{
     display: inline-flex;
 }
+
+#introduction img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
